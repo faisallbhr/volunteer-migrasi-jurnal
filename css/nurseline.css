@@ -121,7 +121,7 @@ body {
 
 .pkp_head_wrapper {
   background-color: var(--main); /* main */
-  background-image: url("https://raw.githubusercontent.com/Isabel621/OJS-Theme/main/assets/header-historica-.png");
+  background-image: url("https://raw.githubusercontent.com/faisallbhr/volunteer-migrasi-jurnal/main/assets/header-nurseline.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -131,13 +131,13 @@ body {
 /* NEW FRAME */
 body {
   /* white */
-  background: url("https://raw.githubusercontent.com/Isabel621/OJS-Theme/main/assets/pattern_historica_.png");
+  background: url("https://raw.githubusercontent.com/faisallbhr/volunteer-migrasi-jurnal/main/assets/pattern-nurseline.png");
   background: linear-gradient(
       180deg,
       rgba(255, 255, 255, 0.1) 170px,
       rgba(255, 255, 255, 0.1) 100%
     ),
-    url("https://raw.githubusercontent.com/Isabel621/OJS-Theme/main/assets/pattern_historica_.png") !important;
+    url("https://raw.githubusercontent.com/faisallbhr/volunteer-migrasi-jurnal/main/assets/pattern-nurseline.png") !important;
 }
 
 .pkp_structure_page {
