@@ -1,0 +1,306 @@
+:root {
+  --background: #fff;
+  --main: #cb0003;
+  --secondary: #08443f;
+}
+
+/* Custom theme by IsabelAprilia*/
+
+html,
+body {
+  font-family: "Noto Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  line-height: 1.43rem;
+  color: rgba(0, 0, 0, 0.87);
+  background: var(--background);
+}
+
+.pkp_structure_page {
+  max-width: 1200 !important;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) !important;
+  max-width: 1160px !important;
+}
+
+.pkp_head_wrapper {
+  width: auto !important;
+}
+#navigationUser {
+  margin-right: 50%;
+  background-color: var(--main) !important;
+  border-radius: 50px;
+  padding-right: 10px;
+  max-width: 150px;
+  margin-left: 50%;
+}
+#navigationUser a {
+  text-align: left !important;
+  color: var(--background);
+}
+#navigationUser a span {
+  color: var(--main);
+  top: 0;
+  background-color: var(--background);
+}
+
+#navigationPrimary ul li a {
+  background: var(--main);
+  color: var(--background);
+}
+
+@media (min-width: 992px) {
+  .pkp_nav_list ul {
+    background: var(--main) !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .pkp_nav_list a {
+    display: flex;
+    align-items: center;
+    padding-left: 0.714rem;
+    padding-right: 0.714rem;
+    text-decoration: none;
+    padding-top: 0.357rem;
+    padding-bottom: 0.357rem;
+  }
+}
+
+.pkp_brand_footer {
+  background: none !important;
+}
+
+.pkp_site_name_wrapper {
+  margin-top: 30px !important;
+}
+
+.pkp_site_name_wrapper,
+.pkp_navigation_primary_row {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+@media only screen and (min-width: 360px) {
+  .pkp_navigation_user {
+    max-width: 150px !important;
+    margin-right: 10% !important;
+  }
+  #navigationUser {
+    margin-top: 50px;
+  }
+  .pkp_site_name {
+    margin-left: 5% !important;
+  }
+}
+
+@media only screen and (min-width: 85.375em) {
+  #navigationUserWrapper {
+    /* margin-right: 25%; */
+  }
+}
+
+@media (min-width: 992px) {
+  .pkp_navigation_user_wrapper {
+    position: absolute;
+    top: 20%;
+    left: 80%;
+    transform: translateX(-50%);
+    padding-left: 0.714rem;
+    padding-right: 0.714rem;
+    text-align: right;
+    padding-top: 0;
+    margin-top: 0;
+    border-top: none;
+    z-index: 1000;
+  }
+}
+
+.pkp_site_nav_menu {
+  margin-top: 60px;
+}
+
+.pkp_head_wrapper {
+  background-color: var(--main); /* main */
+  background-image: url("https://raw.githubusercontent.com/Isabel621/OJS-Theme/main/assets/header-historica-.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 210px;
+}
+
+/* NEW FRAME */
+body {
+  /* white */
+  background: url("https://raw.githubusercontent.com/Isabel621/OJS-Theme/main/assets/pattern_historica_.png");
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.1) 170px,
+      rgba(255, 255, 255, 0.1) 100%
+    ),
+    url("https://raw.githubusercontent.com/Isabel621/OJS-Theme/main/assets/pattern_historica_.png") !important;
+}
+
+.pkp_structure_page {
+  max-width: 1200 !important;
+  margin: 0px auto 30px auto !important;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) !important;
+}
+
+.pkp_head_wrapper {
+  margin: 0px !important;
+}
+.pkp_site_name {
+  margin-left: 0px !important;
+}
+.pkp_structure_footer_wrapper {
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    180deg,
+    var(--background) 75%,
+    rgba(221, 221, 221, 1) 100%
+  ) !important;
+}
+.pkp_structure_footer_wrapper {
+  border-radius: 0 0 0 0;
+}
+
+/* Search Button */
+.fa.fa-search {
+  color: var(--background);
+  padding-right: 6px;
+}
+
+.pkp_site_nav_menu .pkp_nav_list a {
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+  font-size: 13px;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.pkp_site_nav_menu .pkp_nav_list a:focus {
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+  font-size: 13px;
+  color: #fff;
+  background-color: transparent;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* SUBMISSION BUTTON */
+
+a.block_make_submission_link {
+  padding: 5px 10px; /* Menghilangkan !important */
+  width: 100%;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  background: var(--main);
+  color: #fff;
+  border: none;
+  transition: background 0.3s ease; /* Menambahkan transisi untuk perubahan warna */
+}
+a.block_make_submission_link:hover {
+  background: var(--secondary); /* Mengubah warna latar belakang saat hover */
+  color: #fff; /* Tetap putih saat hover */
+}
+
+/* Side Button */
+.actionBtn3 {
+  padding: 5px 10px; /* Menghilangkan !important */
+  width: 100%;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    "Roboto", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  background: var(--main);
+  color: #fff;
+  border: none;
+  transition: background 0.3s ease; /* Menambahkan transisi untuk perubahan warna */
+}
+
+.actionBtn3:hover {
+  background: #7f0002; /* Mengubah warna latar belakang saat hover */
+  color: #fff; /* Tetap putih saat hover */
+}
+
+/* Side Block */
+.block-head {
+  text-transform: capitalize;
+  display: block;
+  padding: 10px 5px !important;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+.side-block {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  background-color: var(--main);
+}
+
+.side-block li {
+  border-bottom: 8px var(--background) solid;
+}
+
+.side-block a {
+  display: block;
+  padding: 5px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+}
+
+.current_issue h2 {
+  display: inline-block;
+  padding-bottom: 0.5em;
+  border-bottom: 3px solid #f7bc4a;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #000000;
+}
+.pkp_structure_head {
+  background-image: none !important;
+}
+
+.pkp_structure_head {
+  background-color: #fff !important;
+  border-bottom: 1px solid #ddd;
+}
+
+.pkp_site_name .is_text {
+  color: #ffffff;
+}
+.pkp_navigation_search_wrapper {
+  margin-right: 80px;
+}
+.pkp_navigation_primary_row {
+  background: var(--main);
+  margin-top: 10px;
+}
+#pkp_content_nav {
+  background: #fff;
+}
+
+/* Main Background */
+.pkp_structure_content.has_sidebar {
+  background-color: var(--background) !important;
+  margin-top: 37px;
+}
+.pkp_structure_footer_wrapper {
+  background: rgba(0, 0, 0, 0.05);
+  border-top: 1px solid #ddd;
+  border-bottom: 20px solid #cb0003;
+}
+
+/* .pkp_navigation_primary_wrapper {
+         background-color: var(--main);
+     } */
